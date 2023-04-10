@@ -1,0 +1,328 @@
+body {
+	background: black;
+	color: white;
+}
+
+nav {
+	height: 60px;
+	width:1440px;
+	margin: auto;
+	margin-bottom: 131px;
+}
+
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 12px;
+}
+
+nav ul .logo {
+	font-size: 18px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#burgerMenuIcon {
+	display: none;
+}
+#burgerMenu {
+	display: none;
+}
+
+@media only screen and (max-width:580px) {
+	
+
+	.topnav {
+		display: none;
+	}
+
+	#burgerMenu:checked ~ .topnav {
+		display: flex;
+	}
+	#burgerMenuIcon {
+		display: block;
+		z-index: 999;
+	}
+
+    .topnav {
+    	display: none;
+    	position: fixed;
+    	width: 100%;
+    	height: 100%;
+    	background: black;
+    	top: 0;
+    	left: 0;
+    	flex-direction: column;
+        z-index: 12;
+    	align-items: center;
+    }
+}
+
+
+
+
+.containertwo {
+	width: 1440px;
+	margin: auto;
+	background-image:url("../images/image1.png"); 
+	background-repeat: no-repeat;
+	position: relative;
+	background-position-x:400px;
+	background-position-y: -100px;
+	background-size: contain 500px;
+}
+
+.New .firstp {
+	background-color: #1C1C1D;
+	width: fit-content;
+	padding: 13px;
+	border-radius: 20px;
+}
+.New .firstp .high {
+	background-color: #25AB75;
+	padding: 5px 10px;
+	border-radius: 20px;
+}
+
+.New h1 {
+	font-size: 150px;
+}
+
+.containertwo .New button a {
+text-decoration: none;
+color: white;
+font-size: 18px;
+}
+.containertwo .New .greenb {
+margin-top: 42px;
+padding: 24px 43px;
+background: #25AB75;
+border-radius: 10px;
+border: none;
+margin-right: 30px;
+}
+.containertwo .New .greyb {
+margin-bottom: 190px;
+padding: 24px 43px;
+background: #1C1C1D;
+border-radius: 10px;
+border: none;
+}
+
+.containertwo .time p {
+	font-size: 40px;
+	line-height: 15px;
+    color: #FFE642;
+    padding: 15px 20px;
+    background: #1C1C1D;
+    width: fit-content;
+    border-radius: 10px;
+}
+.containertwo .time a{
+  font-size: 13px;
+  color: white;
+}
+
+.containertwo .calories p {
+	font-size: 40px;
+	line-height: 15px;
+	color: #FB1351;
+	padding: 15px 20px;
+    background: #1C1C1D;
+    width: fit-content;
+    border-radius: 10px;
+}
+.containertwo .calories a{
+  font-size: 13px;
+  color: white;
+}
+
+.tim-cal {
+	position: absolute;
+	right: 100px;
+	top: 25%;
+}
+
+
+
+.containerthree {
+	width: 1440px;
+	margin: auto;
+
+}
+
+.cards {
+	width: 100%;
+	margin: auto;
+	height: fit-content;
+	display: flex;
+}
+
+.card {
+	margin: auto;
+	position: relative;
+}
+
+.card img {
+	width: 373px;
+	height: 250px;
+	border-radius: 12px;
+}
+
+.cards .card .video {
+	padding: 5px;
+	background: black;
+	position: absolute;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 20px;
+	bottom:20px;
+	right: -5px;
+	border-radius: 10px;
+	color: white;
+}
+
+.cards .card .superh3 {
+	position: absolute;
+	bottom: -20px;
+	left: 70px;
+	font-size: 50px;
+	text-shadow:  1px 1px 2px black;
+}
+
+.cards .card .superh4 {
+	position: absolute;
+	bottom: -20px;
+	left: 120px;
+	font-size: 50px;
+	text-shadow:  1px 1px 2px black;
+}
+
+.cards .card  p  {
+	color: grey;
+}
+
+
+
+
+.containerfour {
+	width: 1440px;
+	margin: auto;
+}
+
+.containerfour h1 {
+	font-size:130px ;
+}
+
+.containerfour .foryell {
+	position: absolute;
+	left: 180px;
+}
+.containerfour .yellow {
+	position: absolute;
+	bottom: 20px;
+	left: -40px;
+	z-index: -1;
+}
+
+.containerfour .workoutback {
+	padding: 150px 320px 403px 421px;
+	background: #1C1C1D;
+	position: absolute;
+	z-index: -2;
+	right: 100px;
+}
+.containerfour .workoutback p {
+	width: 400px;
+	font-size: 22px;
+}
+
+.containerfour .workoutback .greenb a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+.containerfour .workoutback .greenb {
+margin-top: 42px;
+padding: 24px 43px;
+background: #25AB75;
+border-radius: 10px;
+border: none;
+margin-right: 30px;
+}
+
+
+
+
+
+.containerfive {
+	width: 1440px;
+	margin: auto;
+	margin-top: 1000px;
+}
+
+.containerfive .cards {
+	position: relative;
+}
+
+.containerfive .card1 {
+   position: absolute;
+   left: 50px;
+   bottom: -480px;
+}
+
+.containerfive .card2 {
+	position: absolute;
+	right: 86px;
+	top: -128px;
+}
+.containerfive .card2 p {
+	margin-left: 15px;
+}
+.containerfive .card2 h3 {
+	margin-left: 15px;
+}
+
+.containerfive .card3 {
+	position: absolute;
+	bottom: -855px;
+	left: 426px;
+}
+
+
+
+.containersix {
+	width: 1440px;
+	margin: auto;
+	margin-top: 1100px;
+}
+
+.containersix .card {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.containersix .card p {
+	font-size: 20px;
+	color: grey;
+}
+.containersix .card a {
+	color: grey;
+	font-size: 15px;
+}
+
+.containersix .card-content {
+	width: 300px;
+}
